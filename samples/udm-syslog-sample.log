@@ -1,0 +1,45 @@
+<30>Jan  2 03:14:01 UDMPRO systemd[1]: Started UniFi Network application.
+<29>Jan  2 03:15:11 UDMPRO kernel: eth4: NIC Link is Down
+<30>Jan  2 03:15:13 UDMPRO kernel: eth4: NIC Link is Up 1000 Mbps Full Duplex
+<29>Jan  2 03:16:40 UDMPRO kernel: eth4: NIC Link is Down
+<30>Jan  2 03:16:45 UDMPRO kernel: eth4: NIC Link is Up 1000 Mbps Full Duplex
+<29>Jan  2 03:18:02 UDMPRO kernel: eth4: NIC Link is Down
+<30>Jan  2 03:18:09 UDMPRO kernel: eth4: NIC Link is Up 1000 Mbps Full Duplex
+<29>Jan  2 03:19:55 UDMPRO kernel: eth4: NIC Link is Down
+<30>Jan  2 03:20:01 UDMPRO kernel: eth4: NIC Link is Up 1000 Mbps Full Duplex
+<27>Jan  2 03:16:42 UDMPRO dnsmasq[2233]: failed to send packet: Network is unreachable
+<27>Jan  2 03:16:43 UDMPRO dnsmasq[2233]: reply for example.com is SERVFAIL
+<27>Jan  2 03:16:44 UDMPRO dnsmasq[2233]: reply for cdn.example.net is SERVFAIL
+<27>Jan  2 03:16:46 UDMPRO dnsmasq[2233]: reply for api.example.org is SERVFAIL
+<27>Jan  2 03:16:48 UDMPRO dnsmasq[2233]: reply for a.example.com is REFUSED
+<27>Jan  2 03:16:49 UDMPRO dnsmasq[2233]: reply for b.example.com is SERVFAIL
+<27>Jan  2 03:16:50 UDMPRO dnsmasq[2233]: reply for c.example.com is SERVFAIL
+<27>Jan  2 03:16:51 UDMPRO dnsmasq[2233]: reply for d.example.com is SERVFAIL
+<27>Jan  2 03:16:52 UDMPRO dnsmasq[2233]: reply for e.example.com is SERVFAIL
+<27>Jan  2 03:16:53 UDMPRO dnsmasq[2233]: reply for f.example.com is SERVFAIL
+<27>Jan  2 03:16:54 UDMPRO dnsmasq[2233]: reply for g.example.com is SERVFAIL
+<131>Jan  2 04:02:11 UDMPRO hostapd: ath0: STA aa:bb:cc:dd:ee:01 IEEE 802.11: deauthenticated due to local deauth request reason: 4
+<131>Jan  2 04:02:13 UDMPRO hostapd: ath0: STA aa:bb:cc:dd:ee:02 IEEE 802.11: disassociated reason: 4
+<131>Jan  2 04:02:20 UDMPRO hostapd: ath0: STA aa:bb:cc:dd:ee:03 IEEE 802.11: deauthenticated reason: 15
+<131>Jan  2 04:02:25 UDMPRO hostapd: ath0: STA aa:bb:cc:dd:ee:04 IEEE 802.11: deauthenticated reason: 15
+<131>Jan  2 04:02:31 UDMPRO hostapd: ath0: STA aa:bb:cc:dd:ee:05 IEEE 802.11: deauthenticated reason: 23
+<131>Jan  2 04:02:36 UDMPRO hostapd: ath0: STA aa:bb:cc:dd:ee:06 IEEE 802.11: deauthenticated reason: 4
+<131>Jan  2 04:02:41 UDMPRO hostapd: ath0: STA aa:bb:cc:dd:ee:07 IEEE 802.11: disassociated reason: 4
+<131>Jan  2 04:02:45 UDMPRO hostapd: ath0: STA aa:bb:cc:dd:ee:08 IEEE 802.11: deauthenticated reason: 15
+<131>Jan  2 04:02:49 UDMPRO hostapd: ath0: STA aa:bb:cc:dd:ee:09 IEEE 802.11: deauthenticated reason: 15
+<131>Jan  2 04:02:53 UDMPRO hostapd: ath0: STA aa:bb:cc:dd:ee:0a IEEE 802.11: deauthenticated reason: 4
+<131>Jan  2 04:02:57 UDMPRO hostapd: ath0: STA aa:bb:cc:dd:ee:0b IEEE 802.11: deauthenticated reason: 4
+<131>Jan  2 04:05:00 UDMPRO hostapd: ath0: DFS radar detected on channel 100, moving to channel 36
+<38>Jan  2 05:00:01 UDMPRO sshd[4410]: Failed password for invalid user admin from 203.0.113.7 port 51514 ssh2
+<38>Jan  2 05:00:03 UDMPRO sshd[4411]: Failed password for invalid user root from 203.0.113.7 port 51520 ssh2
+<38>Jan  2 05:00:05 UDMPRO sshd[4412]: Failed password for invalid user ubnt from 203.0.113.7 port 51522 ssh2
+<38>Jan  2 05:00:07 UDMPRO sshd[4413]: Failed password for invalid user admin from 203.0.113.7 port 51528 ssh2
+<38>Jan  2 05:00:09 UDMPRO sshd[4414]: Failed password for invalid user test from 203.0.113.7 port 51530 ssh2
+<38>Jan  2 05:00:11 UDMPRO sshd[4415]: Failed password for invalid user pi from 203.0.113.7 port 51536 ssh2
+<38>Jan  2 05:00:13 UDMPRO sshd[4416]: Failed password for invalid user oracle from 203.0.113.7 port 51540 ssh2
+<38>Jan  2 05:00:15 UDMPRO sshd[4417]: Failed password for invalid user admin from 203.0.113.7 port 51544 ssh2
+<38>Jan  2 05:00:17 UDMPRO sshd[4418]: Failed password for invalid user guest from 203.0.113.7 port 51550 ssh2
+<3>Jan  2 06:30:21 UDMPRO kernel: unifi invoked oom-killer: gfp_mask=0x100cca, order=0
+<3>Jan  2 06:30:21 UDMPRO kernel: Out of memory: Killed process 9921 (unifi) total-vm:2200000kB
+<27>Jan  2 06:31:00 UDMPRO unifi: device aa:bb:cc:dd:ee:80 adoption failed: TLS error on inform
+<30>Jan  2 07:00:00 UDMPRO unifi: A new firmware update is available for your console
