@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "udmx-analyzer"
+version = "0.1.0"
+description = "Ingest and analyze UniFi Dream Machine Pro Max logs, syslogs, backups, configs, and support files; correlate issues and emit evidence-backed fixes."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "gfyPub" }]
+keywords = ["unifi", "udm", "udm-pro", "syslog", "log-analysis", "diagnostics"]
+dependencies = []
+
+[project.optional-dependencies]
+# .unf UniFi backup decryption needs a real AES implementation.
+backup = ["cryptography>=3.4"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+udmx-analyze = "udmx_analyzer.cli:main"
+udmx-web = "udmx_analyzer.web.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
